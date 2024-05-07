@@ -11,7 +11,7 @@ To implement the sliding window protocal using Python.
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM
-### Server
+### CLIENT:
 ```
 import socket
 s=socket.socket()
@@ -32,8 +32,9 @@ while True:
  print(ack)
  i+=s
 ```
-### Client
-```import socket
+### SERVER:
+```
+import socket
 s=socket.socket()
 s.connect(('localhost',8000))
 while True: 
