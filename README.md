@@ -1,7 +1,8 @@
 # 2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
 ## NAME : SAIGURUCHANDRAN
 ## REG NO: 212223240143
-## AIM
+## AIM:
+To implement the sliding window protocal using Python.
 ## ALGORITHM:
 1. Start the program.
 2. Get the frame size from the user
